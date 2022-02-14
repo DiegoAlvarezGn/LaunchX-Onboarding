@@ -15,7 +15,7 @@ Crea un entorno virtual mediante ``venv``
     ```
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
 
-    ![](images/capturak2_1.png)
+    ![Image text](https://github.com/DiegoAlvarezGn/Onboarding/blob/main/images/capturak2_1.PNG)
 
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
 
@@ -28,7 +28,7 @@ Crea un entorno virtual mediante ``venv``
     source env/bin/activate
     ```
 
-    ![](images/capturak2_2.png)
+    ![Image text](https://github.com/DiegoAlvarezGn/Onboarding/blob/main/images/capturak2_2.PNG)
 
 Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
 
@@ -44,13 +44,13 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
 
     No deberías obtener respuesta. A continuación, veamos cómo cambia la salida de ``pip freeze`` cuando se agrega una biblioteca (un paquete).
 
-    ![](images/capturak2_3.png)
+    ![Image text](https://github.com/DiegoAlvarezGn/Onboarding/blob/main/images/capturak2_3.PNG)
 
 * Ejecuta el comando ``pip install`` para instalar una biblioteca:
    ```
    pip install python-dateutil
    ```
-   ![](images/capturak2_4.png)
+   ![Image text](https://github.com/DiegoAlvarezGn/Onboarding/blob/main/images/capturak2_4.PNG)
 
 * Un gran mensaje de salida de texto dice que está instalando tu biblioteca, y debe terminar con la siguiente oración:
 
@@ -67,7 +67,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     six==1.16.0
     ```
 
-    ![](images/capturak2_5.png)
+    ![Image text](https://github.com/DiegoAlvarezGn/Onboarding/blob/main/images/capturak2_5.PNG)
 
 ### Desactivar un entorno virtual
 
@@ -78,7 +78,7 @@ Ejecuta el comando ``deactivate``:
 deactivate
 ```
 
-![](images/capturak2_6.png)
+![Image text](https://github.com/DiegoAlvarezGn/Onboarding/blob/main/images/capturak2_6.PNG)
 
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
